@@ -1,0 +1,25 @@
+.user-detail-header {
+    display: flex;
+    align-items: flex-end;
+    min-height: 250px;
+    background-color: orange;
+    color: white;
+}
+
+.profile-img {
+    height: 75px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.user-details {
+    height: 75px;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    h2 {
+        margin-bottom: 0px;
+    }
+}
