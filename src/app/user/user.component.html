@@ -3,14 +3,25 @@
         <tr>
             <th>Name</th>
             <th>E-Mail</th>
-            <th>city</th>
+            <th>Birthdate</th>
+            <th>Street</th>
+            <th>Zip Code</th>
+            <th>City</th>
+
         </tr>
 
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+        <tr *ngFor="let user of allUsers">
+            <td>{{ user.firstName }} {{ user.lastName }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.birthDate }}</td>
+            <td>{{ user.street }}</td>
+            <td>{{ user.zipCode }}</td>
+            <td>{{ user.city }}</td>
         </tr>
+
+
+
+
 
     </table>
 </mat-card>
