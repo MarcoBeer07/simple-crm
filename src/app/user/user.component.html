@@ -7,7 +7,6 @@
             <th>Street</th>
             <th>Zip Code</th>
             <th>City</th>
-
         </tr>
 
         <tr *ngFor="let user of allUsers" [routerLink]="['/user/' + user.customIdName]">
@@ -18,10 +17,6 @@
             <td>{{ user.zipCode }}</td>
             <td>{{ user.city }}</td>
         </tr>
-
-
-
-
 
     </table>
 </mat-card>
